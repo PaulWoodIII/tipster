@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //💩😵😞🤔😶😅😋🤑😍
+    
+    
+    @IBOutlet weak var greeting: UILabel!
+    @IBOutlet weak var nameField: UITextField!
 
+    @IBAction func sayHello(sender: AnyObject) {
+        greeting.text = "Hello \( nameField.text! )";
+    }
 }
 
